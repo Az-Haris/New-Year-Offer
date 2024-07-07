@@ -16,7 +16,7 @@ body{
 /* Header CSS */
 header{
     font-family: "Merriweather", serif;
-    width: 1140px;
+    max-width: 1140px;
     height: 500px;
     margin: 50px auto 100px;
     border-radius: 16px;
@@ -61,4 +61,38 @@ header h1{
     font-size: 48px;
     color: #070211;
     margin-bottom: 30px;
+}
+
+
+/* Party Section */
+.party{
+    max-width: 1140px;
+    height: 600px;
+    margin: 0 auto 100px;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    border-radius: 16px;
+    background: linear-gradient(to right,rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%), url("./images/party.png") no-repeat center right;
+}
+.party-content{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.party-content h2{
+    font-family: "Merriweather", serif;
+    font-size: 64px;
+}
+.party-content p{
+    font-size: 16px;
+}
+.party-content a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
 }
