@@ -37,3 +37,28 @@ header h1{
     font-size: 62px;
     line-height: 1.4;
 }
+
+
+/* OfferSection */
+.offer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    max-width: 800px;
+    margin: 0 auto 100px;
+}
+.offer h2{
+    font-size: 75px;
+    color: red;
+    line-height: 2;
+}
+.offer p{
+    font-size: 24px;
+    color: red;
+}
+.offer h3{
+    font-size: 48px;
+    color: #070211;
+    margin-bottom: 30px;
+}
