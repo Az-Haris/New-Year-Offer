@@ -153,7 +153,7 @@ header h1{
 }
 
 .offer-celebrate{
-    border: 20px solid red;
+    border: 14px solid red;
     padding: 30px;
     border-radius: 100%;
 }
@@ -168,3 +168,46 @@ header h1{
     margin: 10px 0;
 }
 
+
+/* Holidays Sale Section */
+.holiday{
+    text-align: center;
+    max-width: 1140px;
+    margin: 0 auto 100px;
+}
+.holiday .title{
+    font-size: 20px;
+}
+.holiday h2{
+    font-size: 64px;
+    font-family: "Merriweather", serif;
+    margin: 20px 0;
+}
+.holiday-red{
+    color: red;
+}
+.holiday p{
+    font-size: 18px;
+    color: #070211ad;
+    max-width: 850px;
+    margin: auto;
+}
+
+.holiday-discount{
+    height: 700px;
+    position: relative;
+}
+
+.rectangle{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.box{
+    position: relative;
+}
+.discount{
+    position: relative;
+    top: -30%;
+}
