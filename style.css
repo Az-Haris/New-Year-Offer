@@ -211,3 +211,35 @@ header h1{
     position: relative;
     top: -30%;
 }
+
+
+
+/* Portfolio Section */
+.portfolio{
+    max-width: 1140px;
+    margin: 0 auto 100px;
+}
+.portfolio h2{
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    line-height: 1.8;
+}
+.port-des{
+    font-size: 18px;
+    color: #070211b0;
+    width: 800px;
+    margin-bottom: 40px;
+}
+.port-red{
+    font-size: 24px;
+    color: #ff0000;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.products img{
+    width: 100%;
+}
+
